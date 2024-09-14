@@ -6,6 +6,7 @@ Here you can find all the details about the subassemblies provided in pkt folder
 
 - detail versioning of each subassembly
 - help with examples and dwg files
+- \_proCIVIL section
 - ... what more?
 
 ## what is \_proCIVIL section
