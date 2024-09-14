@@ -5,15 +5,16 @@ Feel free to share your PKTs in NET or from Subassembly composer.
 
 ## What can I find here?
 
-Well, you can navigate to ...
-... pkt folder where you can download all subassemblies at once
-... subassemblies folder where you can find all the details for each subassembly
+Well, you can navigate to
+
+- pkt folder where you can download all subassemblies at once
+- subassemblies folder where you can find all the details for each subassembly
 
 ## HOW TO - collaborate on this repository?
 
-Fork the repository
-Create your subassemblies
-Create a pull request
+- Fork the repository
+- Create your subassemblies
+- Create a pull request
 
 ## HOW TO - create README for your subassembly?
 
@@ -26,10 +27,11 @@ We use semantic versioning for an output parameters - see https://www.linkedin.c
 Version of a subassembly must be visible for users as an output parameter - create an output parameter in your subassembly an setup its value.
 
 Version: 2018 1.0.7
-2018 is Subassembly composer version (in you use a composer)
-1 is first major release
-0 is first major release
-7 patching you previous pkts
+
+- 2018 is Subassembly composer version (in you use a composer)
+- 1 is first major release
+- 0 is first major release
+- 7 patching you previous pkts
 
 ## HOW TO - naming convention
 

@@ -6,9 +6,10 @@ You can easily download all subassemblies at once.
 ## Versioning example
 
 Let´s assume we have three subassemblies.
-Circle_2018_1.pkt (more update)
-Circle_2018_2.pkt (first release)
-Square_2018_1.pkt (first release)
+
+- Circle_2018_1.pkt (more update)
+- Circle_2018_2.pkt (first release)
+- Square_2018_1.pkt (first release)
 
 Square has only one version that has already been released in the repository. It means that Square has not been repaired or updated since its first release.
 
