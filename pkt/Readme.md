@@ -19,4 +19,6 @@ Circle_2018_1.pkt has already been updated several times. Minor fixes and some p
 
 ## Want to have minor and patch version too?
 
-See the detail folder of each subassembly for other releases.
+See the [detail folder of each subassembly](https://github.com/karfous/pktFragments/tree/main/subassemblies) for other releases in subassemblies folder.
+
+-

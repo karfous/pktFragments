@@ -10,8 +10,9 @@ Feel free to share your PKTs in NET or from Subassembly composer.
 
 Well, you can navigate to
 
-- pkt folder where you can download all subassemblies at once
-- subassemblies folder where you can find all the details for each subassembly
+- [pkt folder](https://github.com/karfous/pktFragments/tree/main/pkt) - here you can download all subassemblies at once
+- [subassemblies folder ](https://github.com/karfous/pktFragments/tree/main/subassemblies) - where you can find all the details for each subassembly
+- [proCivil folder ](https://github.com/karfous/pktFragments/tree/main/subassemblies/_proCIVIL) - which contains subassemblies from my older project
 
 ## HOW TO - collaborate on this repository?
 
@@ -25,7 +26,7 @@ Check one of the already released PKTs and copy the structure.
 
 ## HOW TO - versioning your subassemblies?
 
-We use semantic versioning for an output parameters - see https://www.linkedin.com/pulse/understanding-semantic-versioning-guide-developers-ajibola-oseni-/
+We use [semantic versioning](https://www.linkedin.com/pulse/understanding-semantic-versioning-guide-developers-ajibola-oseni-/) for an output parameters.
 
 Version of a subassembly must be visible for users as an output parameter - create an output parameter in your subassembly an setup its value.
 
