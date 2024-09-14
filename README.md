@@ -3,8 +3,8 @@
 Community project for Autodesk Civil 3D subassemblies.
 Feel free to share your PKTs in NET or from Subassembly composer.
 
-You can easily access it with https://bit.ly/pktfragments
-Repo homepage https://github.com/karfous/pktFragments/tree/main
+- You can easily access it with https://bit.ly/pktfragments
+- Repo homepage https://github.com/karfous/pktFragments/tree/main
 
 ## What can I find here?
 
@@ -50,18 +50,18 @@ Why not to use minor anod patch version? Minor and patch versions should NOT bre
 
 ### Webinář - základy
 
-CZ
-Basic
-https://www.youtube.com/watch?v=FiV-yv492po&t=812s
+- CZ
+- Basic
+- https://www.youtube.com/watch?v=FiV-yv492po&t=812s
 
 ### Transitions
 
-EN
-Expert
-https://www.youtube.com/watch?v=W-f4Ep7TXyE
+- EN
+- Expert
+- https://www.youtube.com/watch?v=W-f4Ep7TXyE
 
 ### Overview
 
-EN
-Basic
-https://www.youtube.com/watch?v=eN5DtY9gs-w&list=PLjsw5HrA4MXn0qTwXCASOBlnYeG2jN8KI
+- EN
+- Basic
+- https://www.youtube.com/watch?v=eN5DtY9gs-w&list=PLjsw5HrA4MXn0qTwXCASOBlnYeG2jN8KI
