@@ -17,8 +17,6 @@ Why should I use corridor for cable creation? Well, you can benefit from corrido
 | Diameter           | Double | Diameter = 2x wall thickness + empty space of the pipe.                                                                   |
 | Code ID            | String | Codes for the subassembly are generated dynamically. See Codes section                                                    |
 
-codeID String Input Code ID Code are generated dynamically based on the Code ID. Example: Input "Cable" - points will have codes like CableTop, CableBottom, CableRight etc ...
-
 ## Codes
 
 Codes are generated dynamically based on the Code ID parameter.
