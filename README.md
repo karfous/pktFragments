@@ -46,23 +46,3 @@ Let´s say we have a Square subassembly from previous example with version 2018 
 Name of this subassembly would be - Square_2018_1
 
 Why not to use minor anod patch version? Minor and patch versions should NOT break the compatibility. So switching version should be seamless. Only major version can be incompatible with previous release.
-
-## Other sources - knowledge base
-
-### Webinář - základy
-
-- CZ
-- Basic
-- https://www.youtube.com/watch?v=FiV-yv492po&t=812s
-
-### Transitions
-
-- EN
-- Expert
-- https://www.youtube.com/watch?v=W-f4Ep7TXyE
-
-### Overview
-
-- EN
-- Basic
-- https://www.youtube.com/watch?v=eN5DtY9gs-w&list=PLjsw5HrA4MXn0qTwXCASOBlnYeG2jN8KI
