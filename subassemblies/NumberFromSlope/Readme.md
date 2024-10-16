@@ -1,14 +1,22 @@
 # Number from profile
 
+Experimental subassembly.
+
 ## Usage
 
-Experimental subassembly. Do you want to set parameters graphically with profile? Now you can, just target the subassembly to a profile and use multiplier to edit the targeted elevation into desired number.
+Do you want to set parameters graphically with profile? Now you can, just target the subassembly to a profile and use multiplier to edit the targeted elevation into desired number.
 
 ### Example
 
-You can set up superelevation with profile. Just target the subassembly to desired profile and reference its output to other subassemblies. It would be more convenient than using supperelevation graph.
+### Superelevation by profile
 
-Or you can set up width of a pavements ... use your imagination.
+Just target the subassembly to desired profile and reference its output to other subassemblies. You can create a "superelevation" definition with profiles close to height zero. For example height = 3 m will be then multiplied by 0.01 and the output will be 3% . Like superelevation.
+
+It would be more convenient than using supperelevation graph which can be tricky to edit.
+
+### Other ...
+
+Or you can set up width of a pavements with profile... use your imagination.
 
 ## Parameters
 
@@ -22,7 +30,7 @@ Or you can set up width of a pavements ... use your imagination.
 
 ### Points
 
-\_LayoutOnly will be applied only in assembly creation. The code is switch off when building corridor.
+\_LayoutOnly will be applied only in assembly creation. The code for showing the subassembly is switch off when building corridor.
 
 ### Lines
 
