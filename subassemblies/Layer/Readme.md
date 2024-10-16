@@ -4,43 +4,45 @@ A generic subassembly allows you to create a layer for anything. Layer can be a 
 
 ## Usage
 
-### Widths
+How to use this subassembly? Well, there are quite a few possible ways...
 
-1. Create classic road structure. Connect more layers into one big assembly.
+### Classic road structure
 
-Schema
+Create classic road structure. Connect more layers into one big assembly.
+
+Imagine that | is you axis. And dashes "-" shows width of each layer. The picture below consist of three layers. You can define extra width for base layers for example :)
 
 - |------
 - |--------
 - |-----------
 
-2. Create a reconstruction road structure
+### Create a reconstruction road structure
 
-- "xxx" is a current road structure that remains still
+- "\_\_\_" this is a current road structure that reamins still
+- "xxx" is a current road structure that needs to go away
 - "---" is a new road structure - see that layers widths differ
 
 Schema
 
-- |----------
-- |xxx-------
-- |xxxxxx----
+- |xxxxx----------
+- |**\_**xxx-------
+- |**\_**xxxxxx----
 
-3. Create an inverse reconstruction road structure
+### Create an inverse reconstruction road structure
 
-- "xxx" is a current road structure that remains still
-- "---" is a new road structure - see that layers widths differ
+Very similar to previous example but inverse.
 
 Schema
 
-- |----------
-- |-------xxx
-- |----xxxxxx
+- |----------xxxx
+- |-------xxx\_\_\_\_
+- |----xxxxxx\_\_\_\_
 
-### Slopes
+## Slopes
 
 Reconstruction can be tricky and you will need to dynamicaly change the slope of a subassembly.
 
-- Superelevation = use generic subassembly LinkWidthSlope to read specific superelevation and reference it to Layer subassembly
+- Superelevation = currently the subassembly cannot read superelevation but use generic subassembly LinkWidthSlope to read specific superelevation and reference it to Layer subassembly
 - Targeting - offset and elevation can change slope
 
 ## Targets
@@ -62,19 +64,25 @@ Marked points allows you to connect for the width of previous subassemblies.
 
 ### Example
 
-You are creating 3 layered road construction. Number 1,2,3 define marked points. Let´s assume you use dynamic targeting for defining width of layer 1. You cannot define the exact width for 2 and 3. You use MARKED POINTS to specify the width.
+You are creating 3 layered road construction. Number 1,2,3 define marked points at the end of each new layer. Let´s assume you use dynamic targeting for the first layer width.
+
+You cannot define the exact width for 2 and 3. Because first layer change its width by targets. You use MARKED POINTS to specify the width instead.
 
 - ---1
 - ---|---2
 - -------|---3
 
-There are 4 MARKED POINTS generated dynamically according to CODE ID parameter
+### How are MARKED POINTS GENERATED ?
+
+There are 4 MARKED POINTS generated dynamically according to CODE ID parameter of each layer.
+
+This schema show marked points for only 1 layer.
 
 - P1 ----- P2
-- | ------- |
+- | |
 - P3 ----- P4
 
-CodeID = FL (first layer) and Marked Points generated
+First layer can have CodeID = FL (first layer) and Marked Points generated for this layer will have NAMES like
 
 - P1 = FLMPINTOP = FirstLayerMarkedPointINsideTOP
 - P2 = FLMPOUTTOP
@@ -83,7 +91,7 @@ CodeID = FL (first layer) and Marked Points generated
 
 ## Codes
 
-Codes are generated dynamically based on the Code ID parameter.
+Codes are generated dynamically based on the Code ID parameter. Chnage Code ID according to your needs ...
 
 - Code ID: "FL"
 
