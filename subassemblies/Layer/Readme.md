@@ -79,7 +79,7 @@ There are 4 MARKED POINTS generated dynamically according to CODE ID parameter o
 This schema show marked points for only 1 layer.
 
 - P1 ----- P2
-- | |
+- | ------- |
 - P3 ----- P4
 
 First layer can have CodeID = FL (first layer) and Marked Points generated for this layer will have NAMES like
@@ -117,7 +117,7 @@ based on the inputs codes can be for example
 
 ## Versions
 
-| Version    | Date       | Description   |
-| ---------- | ---------- | ------------- |
-| 2020 1.0.0 | 2024-09-14 | First release |
-|            |            |               |
+| Version    | Date       | Description                                                                |
+| ---------- | ---------- | -------------------------------------------------------------------------- |
+| 2020 1.0.0 | 2024-09-14 | First release                                                              |
+| 2020 1.0.1 | 2024-11-12 | BUGFIX - slope when using Marked Points for width and elevation definition |
