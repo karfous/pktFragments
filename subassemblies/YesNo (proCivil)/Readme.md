@@ -1,19 +1,20 @@
 # Yes No switch
 
 Experimental subassembly written in NET. Not editable in Subassembly composer.
-
 This subassembly was created during a proCIVIL project which is not alive anymore.
+
+This is a conditional subassembly which takes an input from previous subassembly and compares it with a condition parameter.
 
 ## Usage
 
-Check out an [old proCivil video tutorial](https://youtu.be/B6fqmSYpDMs)
+Check out an [old proCivil video tutorial](https://youtu.be/B6fqmSYpDMs) in Czech language only :) funny history
 
 ### How to combine with Subassembly composer conditions ?
 
-1.  Create a custom condition subassembly in Subassembly composer (SAC) with a output parameter
-2.  Reference the output to YesNoSwitch
-3.  Set up desired output in YesNoSwitch to compare with referenced output from Subassembly composer
-4.  following subassemblies will calculate itself only if YesNoSwitch parameter will be the same as calculate output parameter from SAC subassembly
+1.  Create a custom condition subassembly in Subassembly composer (SAC) with a output parameter - the output parametr must be DOUBLE type
+2.  Reference the output parameter to "Input" of YesNoSwitch
+3.  Set up desired output in YesNoSwitch to compare with referenced output from Subassembly composer. Set up the condition.
+4.  next subassemblies will calculate itself only if YesNoSwitch Condition = Input parameter
 
 ## You can also watch
 
@@ -23,9 +24,12 @@ Want to know more about conditions and experimental subassemblies? There is a gr
 
 Check out the [video](https://youtu.be/B6fqmSYpDMs)
 
-| Name | Type | Description |
-| ---- | ---- | ----------- |
-|      |      |             |
+| Name             | Type   | Description                                                                                   |
+| ---------------- | ------ | --------------------------------------------------------------------------------------------- |
+| Vstupní parametr | double | Input (referenced parameter)                                                                  |
+| Podmínka         | double | Condition for Input - next subassembly is calculated only if "Condition" == "Input parameter" |
+| Šířka rozvržení  | double | Width - Appearence for composing the assembly                                                 |
+| Výška rozvržení  | double | Height - Appearence for composing the assembly                                                |
 
 ## Codes
 
