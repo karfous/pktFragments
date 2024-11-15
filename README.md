@@ -17,8 +17,9 @@ Well, you can navigate to
 ## HOW TO - collaborate on this repository?
 
 - Fork the repository
-- Create your subassemblies
-- Create a pull request
+- Create new branch
+- Describe your subassemblies
+- Do a pull request
 
 * how to fork the repository? Well you should know something about github. So you can checkout [1 hour explanation](https://www.youtube.com/watch?v=RGOj5yH7evk), or skip to [how to fork](https://www.youtube.com/watch?v=a_FLqX3vGR4) or other [video explaining usage for a class](https://www.youtube.com/watch?v=3dcZNFwPc6I&ab_channel=BillKerney)
 
