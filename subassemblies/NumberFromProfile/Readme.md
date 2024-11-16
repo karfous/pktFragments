@@ -14,6 +14,10 @@ Just target the subassembly to desired profile and reference its output to other
 
 It would be more convenient than using supperelevation graph which can be tricky to edit.
 
+### Height of a curb
+
+You can specify a curb height with the subassembly no matter how high real road profile is.
+
 ### Other ...
 
 Or you can set up width of a pavements with profile... use your imagination.
