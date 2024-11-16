@@ -2,6 +2,10 @@
 
 Customize this subassembly according to your needs or just use it as an input parameter source.
 
+See the page 27 of [ŘSD document](https://pjpk.rsd.cz/data/USR_001_2_10_VL/VL2_Silnicni_teleso__199505_.pdf)
+
+![Fill schema](./assets/FillSchema.png "Fill schema")
+
 ## Usage
 
 This is the basic algo for calculating Czech fill according to CSN 73 6101.
@@ -19,31 +23,31 @@ An output parameter will inform you what kind of fill is calculated.
 
 #### <3
 
-|xxxxxxxxx 1:2.5
-|xxxxxxxxxxxxxx
-|xxxxxxxxxxxxxxxxxx
-|xxxxxxxxxxxxxxxxxxxxxx
+- |xxxxxxxxx 1:2.5
+- |xxxxxxxxxxxxxx
+- |xxxxxxxxxxxxxxxxxx
+- |xxxxxxxxxxxxxxxxxxxxxx
 
 #### 3-6
 
-|x 1:1.5
-|xx
-|xxx
-|xxxxxxx 1:2.5
-|xxxxxxxxxxxx
-|xxxxxxxxxxxxxxxxx
+- |x 1:1.5
+- |xx
+- |xxx
+- |xxxxxxx 1:2.5
+- |xxxxxxxxxxxx
+- |xxxxxxxxxxxxxxxxx
 
 #### 6-9
 
-|x 1:1.5
-|xx
-|xxx
-|----- 1:1.75
-|-------
-|---------
-|xxxxxxxxxxxxxx 1:2.5
-|xxxxxxxxxxxxxxxxxx
-|xxxxxxxxxxxxxxxxxxxxxx
+- |x 1:1.5
+- |xx
+- |xxx
+- |----- 1:1.75
+- |-------
+- |---------
+- |xxxxxxxxxxxxxx 1:2.5
+- |xxxxxxxxxxxxxxxxxx
+- |xxxxxxxxxxxxxxxxxxxxxx
 
 ## How to add real geometry
 
