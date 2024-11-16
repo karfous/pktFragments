@@ -1,4 +1,7 @@
-# Fill CSN 73 6101
+# Counting algorithms for fill by CSN 73 6101
+
+This subassembly does not draw any real points - no geometry.
+This subassembly only calculates what type of fill is in the current station.
 
 Customize this subassembly according to your needs or just use it as an input parameter source.
 
