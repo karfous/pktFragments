@@ -16,7 +16,7 @@ Well, you can navigate to
 
 ## HOW TO - collaborate on this repository?
 
-- Fork the repository
+- CLONE the repository
 - Create new branch
 - Describe your subassemblies
 - Do a pull request
